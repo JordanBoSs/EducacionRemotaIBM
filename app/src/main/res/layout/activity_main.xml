@@ -7,48 +7,26 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello World!"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Primaria">
+    <ImageButton
+        android:id="@+id/btnGrabar2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@mipmap/btnplay"
+        android:contentDescription="@string/app_name"
+        android:onClick="Reprodicir">
 
-        </Button>
+    </ImageButton>
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Secundaria">
+    <ImageButton
+        android:id="@+id/btnGrabar1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@mipmap/btngrabar1"
+        android:contentDescription="@string/app_name"
+        android:onClick="Recorder">
 
-        </Button>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Praparatoria">
-
-        </Button>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Universidad">
-
-        </Button>
-
-    </LinearLayout>
+    </ImageButton>
 
 
 </LinearLayout>
